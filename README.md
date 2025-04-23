@@ -27,9 +27,10 @@ A clean, modular, and beginner-friendly **To-Do List app built entirely in C** u
 ### 1️⃣ Compile
 
 ```bash
-gcc main.c addTask.c displayTasks.c markAsCompleted.c deleteTask.c -o todo
+gcc main.c addTask.c displayTasks.c markAsCompleted.c deleteTask.c -o todo 
+```
 
 ### 2️⃣ Run the App
-
+```
 ./todo
-
+```
