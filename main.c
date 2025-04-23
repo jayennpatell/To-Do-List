@@ -7,7 +7,7 @@ void addTask(Task **head, int *currentId);
 void displayTasks(Task* head);
 void markAsCompleted(Task* head, int id);
 void deleteTask(Task** head, int id);
-// void freeTasks(Task* head);
+void freeTasks(Task* head);
 
 int main() {
     Task* head = NULL;
@@ -15,9 +15,7 @@ int main() {
     int choice;
 
     do {
-        printf("\n\n==============================
-       📝 TO-DO LIST MENU      
-==============================\n\n");
+        printf("\n\n==============================\nTO-DO LIST MENU\n==============================\n\n");
         printf("1. Add Task\n");
         printf("2. List All Tasks\n");
         printf("3. Mark Task as Completed\n");
