@@ -1,19 +1,19 @@
-# 📝 Terminal To-Do List App (in C)
+# Terminal To-Do List App (in C)
 
 A clean, modular, and beginner-friendly **To-Do List app built entirely in C** using terminal-based interaction.  
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ➕ Add new tasks
-- ✅ Mark tasks as completed
-- 🗑️ Delete tasks by ID
-- 📃 View all tasks 
+-  Add new tasks
+-  Mark tasks as completed
+-  Delete tasks by ID
+-  View all tasks 
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - Working with structs and linked lists
 - Using `malloc` / `free` for dynamic memory
@@ -24,13 +24,13 @@ A clean, modular, and beginner-friendly **To-Do List app built entirely in C** u
 
 ## 🛠️ Setup & Run
 
-### 1️⃣ Compile
+### 1. Compile
 
 ```bash
 gcc main.c addTask.c displayTasks.c markAsCompleted.c deleteTask.c freeTasks.c -o todo 
 ```
 
-### 2️⃣ Run the App
+### 2. Run the App
 ```
 ./todo
 ```
